@@ -15,9 +15,6 @@ body{
     margin-left: 15%;
     margin-right: 15%;
 }
-.bord-rad{
-    border-radius: 10%;
-}
 /*Header*/
 .cont-header{
     height: 80px;
@@ -38,6 +35,7 @@ header{
 /*Nav*/
 nav{
     margin-bottom: 2px;
+    border-top: 20%;
 }
 button{
     margin-top: 10px;
@@ -45,6 +43,7 @@ button{
     height: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10%;
 }
 .but1{
     margin-left: 10%;
@@ -67,7 +66,7 @@ ul{
     margin-bottom: 20px;
 }
 li{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .done{
     display: inline-block;
@@ -80,6 +79,7 @@ li{
     font-size: 10px;
     line-height: 15px;
     text-align: center;
+    margin-right: 5px;
 }
 .to-do{
     display: inline-block;
@@ -92,3 +92,34 @@ li{
     font-size: 10px;
     line-height: 15px;
     text-align: center;
+    margin-right: 5px;
+}
+.post-it{
+    display: inline-block;
+    text-align: center;
+    height: 15px;
+    width: 60px;
+    color: white;
+    margin-left: 5px;
+    font-size: x-small;
+    padding: 2px;
+    border-radius: 25%;
+}
+.celeste{
+    background-color: #00ccff;
+}
+.purple{
+    background-color: rgb(129, 31, 129);
+}
+.rose{
+    background-color: rgb(187, 86, 103);
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: rgb(62, 146, 62);
+}
+.lightgreen{
+    background-color: rgb(117, 182, 117);
+}
