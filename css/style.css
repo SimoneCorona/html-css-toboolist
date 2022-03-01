@@ -1,11 +1,58 @@
+/*Reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: #d4d0d0;
+}
+/*utility*/
+.background{
+    background-color: white;
+}
+.margin{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bord-rad{
+    border-radius: 10%;
+}
+/*Header*/
+.cont-header{
+    height: 80px;
+    line-height: 80px;
+}
+.title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+#logo{
+    vertical-align: middle;
+    margin-left: 20px;
 }
 header{
+    margin-bottom: 20px;
+}
+/*Nav*/
+nav{
+    ;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.but1{
+    margin-left: 10%;
+    background-color: #00ccff;
+    color: white;
+    border: white;
+}
+.but2{
     background-color: white;
+    color: lightgrey;
 }
