@@ -57,7 +57,38 @@ button{
     color: lightgrey;
 }
 /*main*/
+main{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 ul{
     list-style: none;
     margin-left: 10%;
+    margin-bottom: 20px;
 }
+li{
+    margin-bottom: 5px;
+}
+.done{
+    display: inline-block;
+    color: green;
+    border-color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+}
+.to-do{
+    display: inline-block;
+    color: red;
+    border-color: red;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
