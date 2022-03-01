@@ -37,7 +37,7 @@ header{
 }
 /*Nav*/
 nav{
-    ;
+    margin-bottom: 2px;
 }
 button{
     margin-top: 10px;
@@ -55,4 +55,9 @@ button{
 .but2{
     background-color: white;
     color: lightgrey;
+}
+/*main*/
+ul{
+    list-style: none;
+    margin-left: 10%;
 }
